@@ -65,9 +65,9 @@ AutoXresults=sprintf('AutoX\nTime: %.3f\nPosition: %.0f\nScore: %.3f\n',totalTim
 disp(AutoXresults);
 
 SkidResults=sprintf('Skidpad\nTime: %.3f\nPosition: %.0f\nScore: %.3f\n',skidTime,skidPosition,skidScore);
-% disp(SkidResults);
-% [aTime,aScore,aPosition]=accelSimp(a);
+disp(SkidResults);
 
+[aTime,aScore,aPosition]=accelSimp(a);
 aResults=sprintf('Acceleration\nTime: %.3f\nPosition: %.0f\nScore: %.3f\n',aTime,aPosition,aScore);
 disp(aResults);
 
