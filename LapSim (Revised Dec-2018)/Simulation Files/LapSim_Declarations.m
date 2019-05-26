@@ -27,7 +27,7 @@ debug_plotting = false;                        % whether or not to display debug
 
 %% Overall Vehicle Parameters
 global massCar c L La w_track h wDiam g mu     % declare global variables
-%massCar = 207.2072;                                 % mass of car [kg]
+massCar = 217.217;                                 % mass of car [kg]
 massDriver = 75;                               % mass of driver [kg]
 L = 60.5*.0254;                                % wheelbase [m] - converted from in
 w_track = 48.*0.0254;                          % trackwidth [m] - converted from in
@@ -57,7 +57,7 @@ rho = 1.225;                                   % density of air [kg/m^3]
 frontA = 1.17;                                 % frontal profile area [m^2]
 Cl = -2.557;                                   % lift coefficient [-]
     % CONVENTION: Downforce is negative, lift is positive
-%Cd = 1.14;                                     % drag coefficient [-]
+Cd = 1.14;                                     % drag coefficient [-]
 
 %% Data Inputs and Modification
 global torqFile torqF tuneTTCTurning ...
